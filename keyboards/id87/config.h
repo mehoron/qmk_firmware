@@ -21,7 +21,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PRODUCT_ID      0x0087
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    IDOBAO
-#define PRODUCT         IDOBAO ID87
+#define PRODUCT         ID87
+#define DESCRIPTION     A TKL hotswap keyboard
 
 /* key matrix size */
 #define MATRIX_ROWS 11
@@ -64,3 +65,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_SAT_STEP 8
 #define RGBLIGHT_VAL_STEP 8
 #endif
+
+/* Bootmagic Lite key configuration: use the Esc key */
+#define BOOTMAGIC_LITE_ROW      0
+#define BOOTMAGIC_LITE_COLUMN   5
